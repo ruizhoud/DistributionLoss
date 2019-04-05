@@ -76,7 +76,7 @@ class AlexNet(nn.Module):
             40: {'lr': 1e-4},
             50: {'lr': 1e-5},
             60: {'lr': 1e-6},
-            65: {'lr': 0},
+            64: {'lr': 0},
         }
         self.input_transform = {
             'train': transforms.Compose([

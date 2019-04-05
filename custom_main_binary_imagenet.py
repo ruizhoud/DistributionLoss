@@ -219,7 +219,7 @@ def forward(data_loader, model, criterion, epoch=0, training=True, optimizer=Non
         distr_loss1 = distr_loss1.mean()
         distr_loss2 = distr_loss2.mean()
         loss = criterion(output, target_var)
-        # remove distrloss after 20 epochs
+        # remove distrloss after args.distr_epoch epochs
         if epoch < args.distr_epoch and args_distrloss > 1e-4:
             loss = loss + (distr_loss1 + distr_loss2) * args_distrloss
 
