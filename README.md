@@ -1,5 +1,5 @@
 # Distribution_Loss
-Source code for paper "Regularizing Activation Distribution for Training Binarized Deep Networks"
+Source code for [paper](https://arxiv.org/abs/1904.02823) "Regularizing Activation Distribution for Training Binarized Deep Networks"
 
 Code modified from the [code](https://github.com/itayhubara/BinaryNet.pytorch) for the original BNN paper.
 
